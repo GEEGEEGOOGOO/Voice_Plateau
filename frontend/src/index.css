@@ -1,0 +1,33 @@
+/* Reset and base styles for VoiceAgent AI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove default button styles to let Tailwind handle them */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Ensure links don't have default styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
