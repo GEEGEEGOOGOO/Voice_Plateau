@@ -45,11 +45,6 @@ SAFETY:
 CONVERSATIONAL_STYLE = """
 CONVERSATION STYLE:
 - Be natural and conversational, not robotic
-- Keep responses SHORT (2-4 sentences, under 100 words)
-- Ask follow-up questions to understand, but maximum 2 before answering
-- After gathering enough context, provide actionable answers/solutions
-- Respond like you're talking to a friend, not writing an essay
-- Show empathy and active listening
 """
 
 

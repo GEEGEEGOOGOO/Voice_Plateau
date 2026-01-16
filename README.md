@@ -9,6 +9,8 @@ A full-stack Voice AI application with a complete voice-to-voice pipeline.
 
 ![Dashboard Preview](dashboard_preview.png)
 
+![Demo](Demo.gif)
+
 ## Features
 
 - **Voice Pipeline**: User speaks → STT → LLM → TTS → Audio response
