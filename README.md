@@ -7,7 +7,9 @@ A full-stack Voice AI application with a complete voice-to-voice pipeline.
 ![React](https://img.shields.io/badge/Frontend-React-61DAFB)
 ![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248)
 
-## 🎯 Features
+![Dashboard Preview](dashboard_preview.png)
+
+## Features
 
 - **Voice Pipeline**: User speaks → STT → LLM → TTS → Audio response
 - **User Authentication**: JWT-based signup/login
@@ -18,7 +20,7 @@ A full-stack Voice AI application with a complete voice-to-voice pipeline.
 - **WebSocket Support**: Real-time voice interaction with streaming audio (Bonus Feature)
 - **Streaming Audio**: Audio chunks streamed in 8KB segments for faster playback (Bonus Feature)
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
@@ -57,7 +59,7 @@ A full-stack Voice AI application with a complete voice-to-voice pipeline.
   - Progressive audio streaming
   - Lower latency
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Python 3.10+
 - Node.js 18+
@@ -66,7 +68,7 @@ A full-stack Voice AI application with a complete voice-to-voice pipeline.
   - Groq API Key (for STT & LLM) - [Get free key](https://console.groq.com/keys)
   - ElevenLabs API Key (for TTS) - Optional, Edge TTS is free default
 
-## 🔐 Demo Account
+##  Demo Account
 
 For quick testing, use these credentials:
 
@@ -74,7 +76,7 @@ For quick testing, use these credentials:
 |-------|----------|
 | `voice123@example.com` | `qwerty` |
 
-## 📝 Assumptions
+##  Assumptions
 
 - User has **Node.js 18+** and **Python 3.10+** installed
 - **MongoDB** is accessible (local instance or MongoDB Atlas)
@@ -83,7 +85,7 @@ For quick testing, use these credentials:
 - For paid providers (Gemini, ElevenLabs), user provides their own API keys in `.env`
 - Default configuration uses **free services only** (Groq + Edge TTS)
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone the Repository
 
@@ -210,14 +212,14 @@ Voice_Platform/
 | POST | `/api/voice/chat` | Voice-to-voice pipeline |
 | POST | `/api/voice/chat/text` | Voice-to-text (no TTS) |
 
-## 🎨 UI Pages
+##  UI Pages
 
 1. **Login/Signup** - User authentication
 2. **Dashboard** - Agent management with stats
 3. **Agent Form** - Create/edit agents with provider selection
 4. **Voice Chat** - Real-time voice interaction with captions
 
-## 🔧 Configuration
+##  Configuration
 
 ### Supported Providers
 
@@ -236,7 +238,7 @@ Voice_Platform/
 - OpenAI TTS
 - Azure Speech
 
-## 📝 Usage Flow
+##  Usage Flow
 
 1. **Sign up** for an account
 2. **Create an agent** with a custom system prompt
@@ -244,7 +246,7 @@ Voice_Platform/
 4. **Start voice chat** - hold the mic button to speak
 5. **Receive audio response** with real-time captions
 
-## 🛠️ Development
+##  Development
 
 ### Backend Development
 ```bash
@@ -269,11 +271,11 @@ pip install gunicorn
 gunicorn app.main:app -w 4 -k uvicorn.workers.UvicornWorker
 ```
 
-## 📜 License
+##  License
 
 MIT License
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
